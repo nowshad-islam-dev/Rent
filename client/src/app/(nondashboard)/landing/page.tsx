@@ -1,3 +1,4 @@
+import CallToAction from './CallToAction';
 import DiscoverSection from './DiscoverSection';
 import FeaturesSection from './FeaturesSection';
 import HeroSection from './HeroSection';
@@ -8,6 +9,7 @@ const page = () => {
       <HeroSection />
       <FeaturesSection />
       <DiscoverSection />
+      <CallToAction />
     </div>
   );
 };
